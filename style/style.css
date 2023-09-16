@@ -35,11 +35,11 @@ ul{
     padding: 0.4%;
     border: 2px solid #0a0908;
     border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
 }
 
 .list-menu:hover{
-    background-color: #a9927d;
-    border-color: #5e503f;
+    background-color: #967a61;
 }
 
 .link-menu{
@@ -51,11 +51,26 @@ section{
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 0%;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
+    border-bottom: 1px solid #5e503f;
+    padding-bottom: 2%; 
 }
 
-div{
-    border-bottom: 1px solid black; /* Adiciona uma borda preta na parte inferior */
-  padding-bottom: 10px; /* Opcional: Adiciona um espaço entre a linha e o conteúdo */
-  margin-bottom: 10px;
+.contatos{
+    text-align: left;
+}
+
+.link-contatos{
+    color: #f2f4f3;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+.list-contatos{
+    list-style: none;
+    display: inline;
+}
+
+a{
+    text-decoration: none;
 }
