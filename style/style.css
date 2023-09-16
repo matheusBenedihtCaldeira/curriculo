@@ -53,3 +53,9 @@ section{
     margin-top: 0%;
     margin-bottom: 5%;
 }
+
+div{
+    border-bottom: 1px solid black; /* Adiciona uma borda preta na parte inferior */
+  padding-bottom: 10px; /* Opcional: Adiciona um espaço entre a linha e o conteúdo */
+  margin-bottom: 10px;
+}
